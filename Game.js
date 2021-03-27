@@ -122,7 +122,7 @@ class Game {
       }
         flag1=0;
         if(player.score<=0){
-          player.destroy();
+         // player.destroy();
           player.update();
         }
         if(keyDown("space")&&player.index===2){
