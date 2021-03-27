@@ -121,10 +121,7 @@ class Game {
         }
       }
         flag1=0;
-        if(player.score<=0){
-         // player.destroy();
-          player.update();
-        }
+        
         if(keyDown("space")&&player.index===2){
         var b1=createSprite(army2.x-200,army2.y-50,50,50)
         b1.addImage(bullet1);
